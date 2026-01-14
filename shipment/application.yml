@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: Shipment_module
+
+  kafka:
+    bootstrap-servers: ${KAFKA_URL}
+    consumer:
+      group-id: ${MODULE_GROUP_ID}
+
+microservices:
+  baseUrl: ${BASE_URL}
+
+server:
+  port: ${SERVICE_PORT}
+
+message:
+  ttl:
+    seconds: ${MESSAGE_TTL_SECONDS}
