@@ -2,6 +2,11 @@ spring:
   application:
     name: Gate_module
 
+  kafka:
+    bootstrap-servers: ${KAFKA_URL}
+    consumer:
+      group-id: ${MODULE_GROUP_ID}
+
   security:
     oauth2:
       resourceserver:

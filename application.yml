@@ -8,18 +8,5 @@ spring:
     generate-ddl: true
     open-in-view: false
 
-  kafka:
-    bootstrap-servers: ${KAFKA_URL}
-    consumer:
-      group-id: ${MODULE_GROUP_ID}
-
-  cache:
-    type: redis
-
-  data:
-    redis:
-      host: ${REDIS_HOST}
-      port: ${REDIS_PORT}
-
 server:
   port: ${SERVICE_PORT}
