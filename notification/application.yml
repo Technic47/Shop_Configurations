@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Shop_notifier_module
+
+  kafka:
+    bootstrap-servers: ${KAFKA_URL}
+    consumer:
+      group-id: ${MODULE_GROUP_ID}
+
+microservices:
+  baseUrl: ${BASE_URL}
+
+server:
+  port: 8088
