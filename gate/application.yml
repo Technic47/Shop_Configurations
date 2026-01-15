@@ -45,7 +45,7 @@ web:
 
 service:
   address:
-    url: lb://ADDRESS_MODULE
+    url: lb://address_module
   product:
     url: lb://PRODUCT_MODULE
   product-category:
