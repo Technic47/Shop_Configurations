@@ -42,3 +42,25 @@ web:
   client:
     retry: 300
     max-attempts: 3
+
+services:
+  address:
+    url: lb://ADDRESS_MODULE
+  product:
+    url: lb://ADDRESS_MODULE
+  product-category:
+    url: lb://ADDRESS_MODULE
+  store:
+    url: lb://ADDRESS_MODULE
+  stock:
+    url: lb://ADDRESS_MODULE
+  order:
+    url: lb://ADDRESS_MODULE
+  operation:
+    url: lb://ADDRESS_MODULE
+  payment:
+    url: lb://ADDRESS_MODULE
+  shipment:
+    url: lb://ADDRESS_MODULE
+  notification:
+    url: lb://ADDRESS_MODULE
