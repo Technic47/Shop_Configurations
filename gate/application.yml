@@ -43,7 +43,7 @@ web:
     retry: 300
     max-attempts: 3
 
-services:
+service:
   address:
     url: lb://ADDRESS_MODULE
   product:
