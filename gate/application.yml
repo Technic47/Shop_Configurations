@@ -47,20 +47,20 @@ services:
   address:
     url: lb://ADDRESS_MODULE
   product:
-    url: lb://ADDRESS_MODULE
+    url: lb://PRODUCT_MODULE
   product-category:
-    url: lb://ADDRESS_MODULE
+    url: lb://PRODUCT_CATEGORY_MODULE
   store:
-    url: lb://ADDRESS_MODULE
+    url: lb://STORE_MODULE
   stock:
-    url: lb://ADDRESS_MODULE
+    url: lb://STOCK_MODULE
   order:
-    url: lb://ADDRESS_MODULE
+    url: lb://ORDER_MODULE
   operation:
-    url: lb://ADDRESS_MODULE
+    url: lb://OPERATION_MODULE
   payment:
-    url: lb://ADDRESS_MODULE
+    url: lb://PAYMENT_MODULE
   shipment:
-    url: lb://ADDRESS_MODULE
+    url: lb://SHIPMENT_MODULE
   notification:
-    url: lb://ADDRESS_MODULE
+    url: lb://SHOP_NOTIFIER_MODULE
