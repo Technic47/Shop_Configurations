@@ -8,9 +8,6 @@ spring:
     generate-ddl: true
     open-in-view: false
 
-server:
-  port: ${SERVICE_PORT}
-
 eureka:
   client:
     serviceUrl:
