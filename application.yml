@@ -17,7 +17,7 @@ eureka:
 
 service:
   address:
-    url: address
+    url: ADDRESS_MODULE
   product:
     url: PRODUCT_MODULE
   product-category:
