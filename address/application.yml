@@ -1,7 +1,4 @@
 spring:
-  application:
-    name: Address_module
-
   kafka:
     bootstrap-servers: ${KAFKA_URL}
     consumer:
