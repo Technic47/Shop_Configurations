@@ -14,3 +14,8 @@ spring:
 
 server:
   port: ${SERVICE_PORT}
+
+eureka:
+  client:
+    instance:
+      hostname: address
