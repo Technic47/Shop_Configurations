@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: ${EUREKA_HOST_NAME}
+    hostname: eureka
 
   client:
     registerWithEureka: false
