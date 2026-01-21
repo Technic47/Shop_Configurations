@@ -1,7 +1,4 @@
 spring:
-  application:
-    name: Updater_module
-
   kafka:
     bootstrap-servers: ${KAFKA_URL}
     consumer:

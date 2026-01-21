@@ -1,7 +1,4 @@
 spring:
-  application:
-    name: Shop_notifier_module
-
   kafka:
     bootstrap-servers: ${KAFKA_URL}
     consumer:
