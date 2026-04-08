@@ -27,6 +27,9 @@ keycloak:
   password: ${KEYCLOAK_PASSWORD}
   clientId: ${KEYCLOAK_CLIENT_ID}
   clientSecret: ${KEYCLOAK_CLIENT_SECRET}
+  cli-admin:
+    clientId: ${KEYCLOAK_CLI_CLIENT_ID}
+    clientSecret: ${KEYCLOAK_CLI_CLIENT_SECRET}
 
 logging:
   level:
